@@ -10,5 +10,5 @@ iris = datasets.load_iris()
 iris_df = pd.DataFrame(data= np.c_[iris['data'], iris['target']],
                      columns= iris['feature_names'] + ['target'])
 
-# always remember to wrap arounf with print otherwise there's no output
+# always remember to wrap around with print otherwise there's no output
 print(iris_df.head())
